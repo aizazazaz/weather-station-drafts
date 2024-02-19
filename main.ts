@@ -28,6 +28,7 @@ SerialPin.P15,
 SerialPin.P14,
 BaudRate.BaudRate9600
 )
+serial.writeLine("[Weather Station] Starting!")
 basic.pause(500)
 basic.showLeds(`
     . . . . .

@@ -4,10 +4,10 @@
         . . # . . 
         . . . . . 
         . . . . .
-        `</field><next><block type="weatherbit_setupBME280" id=".CyW6Je`5t7^g#.$l+c2"><next><block type="weatherbit_startRainMonitoring" id="+sh@91AWK+(Geww1Qq*l"><next><block type="weatherbit_startWindMonitoring" id="{Ha(dpf^T8Txd]{8ao5N"><next><block type="serial_redirect" id="-sh^|D[.5SkUKs.rTKy#"><field name="tx">SerialPin.P15</field><field name="rx">SerialPin.P14</field><field name="rate">BaudRate.BaudRate9600</field><next><block type="device_pause" id="`t_ah|OBwGh+IA9Ezpy6"><value name="pause"><shadow type="timePicker" id="O##If(Ss:m/J9sSJigxy"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="VK?6nVY%s-]^3xt/RA/_"><field name="LEDS">`
+        `</field><next><block type="weatherbit_setupBME280" id=".CyW6Je`5t7^g#.$l+c2"><next><block type="weatherbit_startRainMonitoring" id="+sh@91AWK+(Geww1Qq*l"><next><block type="weatherbit_startWindMonitoring" id="{Ha(dpf^T8Txd]{8ao5N"><next><block type="serial_redirect" id="-sh^|D[.5SkUKs.rTKy#"><field name="tx">SerialPin.P15</field><field name="rx">SerialPin.P14</field><field name="rate">BaudRate.BaudRate9600</field><next><block type="serial_writeline" id=";9O~r~+*$Nd{?R%*8rR:"><value name="text"><shadow type="text" id="!=YNY%/dEoWp@jI+f,BB"><field name="TEXT">[Weather Station] Starting!</field></shadow></value><next><block type="device_pause" id="`t_ah|OBwGh+IA9Ezpy6"><value name="pause"><shadow type="timePicker" id="O##If(Ss:m/J9sSJigxy"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="VK?6nVY%s-]^3xt/RA/_"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
