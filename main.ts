@@ -37,6 +37,8 @@ basic.showLeds(`
     . . . . .
     `)
 basic.forever(function () {
-    serial.writeLine("W=" + input.runningTime() + " " + weatherbit.temperature() / 100 + " " + weatherbit.humidity() / 1024 + " " + weatherbit.pressure() / 256 + " " + weatherbit.soilMoisture() / 900 + " " + weatherbit.soilTemperature() / 100 + " " + weatherbit.windSpeed() + " " + weatherbit.windDirection() + " " + weatherbit.rain() + " " + weatherbit.altitude())
-    basic.pause(1000)
+    serial.writeLine("W1=" + input.runningTime() + " " + weatherbit.temperature() / 100 + " " + weatherbit.humidity() / 1024 + " " + weatherbit.pressure() / 256 + " " + weatherbit.soilMoisture() / 900 + " " + weatherbit.soilTemperature() / 100 + " " + weatherbit.windSpeed() + " " + weatherbit.windDirection() + " " + weatherbit.rain() + " " + weatherbit.altitude())
+    basic.pause(500)
+    serial.writeLine("W2=" + input.acceleration(Dimension.X) + " " + input.acceleration(Dimension.Y) + " " + input.acceleration(Dimension.Z) + " " + input.acceleration(Dimension.Strength) + " " + input.lightLevel() + " " + input.magneticForce(Dimension.X) + " " + input.magneticForce(Dimension.Y) + " " + input.magneticForce(Dimension.Z) + " " + input.magneticForce(Dimension.Strength))
+    basic.pause(500)
 })
